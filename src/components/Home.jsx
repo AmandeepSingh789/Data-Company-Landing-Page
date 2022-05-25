@@ -17,7 +17,7 @@ const Home = () => {
             <p className='py-4 md:text-2xl text-xl text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
 
 
-        <button className=' md:text-3xl sm:text-2xl text-lg bg-[#75FF26] w-[200px] rounded-lg mx-auto py-3 text-black'>Get Started</button>
+        <button className=' md:text-3xl sm:text-2xl text-lg bg-[#5FD21F] w-[200px] rounded-lg mx-auto py-3 text-black'>Get Started</button>
         </div>
     </div>
   )
