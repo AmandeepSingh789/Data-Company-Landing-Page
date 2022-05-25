@@ -10,11 +10,14 @@ const Home = () => {
             <p className='text-[#75FF26] text-3xl font-bold p-2'>Growing With Data Analytics</p>
             <h1 className=' md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>GROW WITH DATA.</h1>
             <div className='flex justify-center items-center  '>
-                <p className='md:text-5xl sm:text-4xl text-xl font-bold'>Fast, Flexible, Financing for </p>
+                <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Fast, Flexible, Financing for </p>
                 <Typed  className=' pl-2 md:text-5xl sm:text-4xl text-xl font-bold'strings={['BTB','BTC','SASS']}
                     typeSpeed={140} backSpeed={140} loop/>
             </div>
             <p className='py-4 md:text-2xl text-xl text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
+
+
+        <button className=' md:text-3xl sm:text-2xl text-lg bg-[#75FF26] w-[200px] rounded-lg mx-auto py-3 text-black'>Get Started</button>
         </div>
     </div>
   )
