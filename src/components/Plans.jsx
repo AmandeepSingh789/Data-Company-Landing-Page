@@ -6,7 +6,12 @@ import triple from '../assets/triple.png'
 
 const Plans = () => {
   return (
-    <div className='w-full py-[10rem] px-4 bg-white'>
+
+     
+    <div className='w-full py-[6rem] px-4 bg-white font-Inconsolata'>
+        <div className='flex flex-row justify-center text-6xl font-bold mb-20'>
+            PLANS
+         </div>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
 
             <div className='w-full border '>
