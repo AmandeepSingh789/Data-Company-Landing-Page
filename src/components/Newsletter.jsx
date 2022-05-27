@@ -16,7 +16,7 @@ const Newsletter = () => {
                 <button className='md:text-xl sm:text-xl text-lg bg-[#5FD21F] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-4 py-3'>Notify Me</button>
 
                 </div>
-                <p className='md:text-xl sm:text-xl text-lg'>We care bout the protection of your data. Read our <span className='text-[#5fd21f]'>Privacy Policy. </span></p>
+                <p className='md:text-xl sm:text-xl text-lg'>We care bout the protection of your data. Read our <span className='text-[#5fd21f] hover:cursor-pointer'>Privacy Policy. </span></p>
             </div>
 
             
