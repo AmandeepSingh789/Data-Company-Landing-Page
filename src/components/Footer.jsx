@@ -8,7 +8,7 @@ import {
   } from 'react-icons/fa';
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 font-Inconsolata' >
         <div>
             <h1 className='w-full text-5xl font-bolds text-[#75FF26] font-Inconsolata'>REACT.</h1>
             <p className='py-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus fugiat adipisci officiis distinctio eos. Debitis veniam quaerat sunt repellendus dolore, quas laborum sit ducimus vitae dignissimos. Vitae praesentium quae officiis!
@@ -24,44 +24,44 @@ const Footer = () => {
 
         <div className='lg:col-span-2 flex justify-between mt-6 ml-6'>
             <div>
-            <h6 className='font-medium tet-gray-600 hover:text-[#75FF26] hover:cursor-pointer'>Solutions</h6>
+            <h6 className='font-medium text-lg text-[#75FF26] hover:cursor-pointer'>Solutions</h6>
             <ul>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Analytics</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Insights</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Marketing</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Commerce</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Analytics</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Insights</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Marketing</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Commerce</li>
                
             </ul>
             </div>
 
             <div>
-            <h6 className='font-medium tet-gray-600 hover:text-[#75FF26] hover:cursor-pointer'>Support</h6>
+            <h6 className='font-medium text-lg text-[#75FF26]  hover:cursor-pointer'>Support</h6>
             <ul>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Pricing</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Guides</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Documentation</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>API Status</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Pricing</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Guides</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Documentation</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>API Status</li>
 
             </ul>
             </div>
 
             <div>
-            <h6 className='font-medium tet-gray-600 hover:text-[#75FF26] hover:cursor-pointer'>Company</h6>
+            <h6 className='font-medium text-lg text-[#75FF26]  hover:cursor-pointer'>Company</h6>
             <ul>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>About</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Blog</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Jobs</li>
-                <li className='py-3 text-sm hover:text-[#75FF26] hover:cursor-pointer'>Press</li>
-                <li className='py-3 text-sm hover:cursor-pointer hover:text-[#75FF26]'>Careers</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>About</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Blog</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Jobs</li>
+                <li className='py-3 text-md hover:text-[#75FF26] hover:cursor-pointer'>Press</li>
+                <li className='py-3 text-md hover:cursor-pointer hover:text-[#75FF26]'>Careers</li>
             </ul>
             </div>
 
             <div>
-            <h6 className='font-medium tet-gray-600 hover:text-[#75FF26] hover:cursor-pointer'>Legal</h6>
+            <h6 className='font-medium  text-lg text-[#75FF26]  hover:cursor-pointer'>Legal</h6>
             <ul>
-                <li className='py-3 text-sm hover:cursor-pointer hover:text-[#75FF26]'>Claim</li>
-                <li className='py-3 text-sm  hover:cursor-pointer hover:text-[#75FF26]'>Policy</li>
-                <li className='py-3 text-sm hover:cursor-pointer hover:text-[#75FF26]'>Terms</li>
+                <li className='py-3 text-md  hover:cursor-pointer hover:text-[#75FF26]'>Claim</li>
+                <li className='py-3 text-md   hover:cursor-pointer hover:text-[#75FF26]'>Policy</li>
+                <li className='py-3 text-md  hover:cursor-pointer hover:text-[#75FF26]'>Terms</li>
 
             </ul>
             </div>
