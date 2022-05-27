@@ -23,7 +23,7 @@ const Plans = () => {
                     <p className='py-2 border-b mx-8'>1 User </p>
                     <p className='py-2 border-b mx-8'>Upload speeds upto 100 mb/s</p>
                 </div>
-                <button className='md:text-xl sm:text-xl text-lg bg-[#5FD21F] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-4 py-3 hover:text-white'>Start Trial</button>
+                <button className='md:text-xl sm:text-xl text-lg bg-[#5FD21F] text-black rounded-md font-medium w-[200px]  my-6 mx-auto px-6 py-3 hover:text-white'>Start Trial</button>
             </div>
             <div className='w-full shadow-2xl shadow-[#5FD21F] flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-500 mb-16'>
                 <img src={double} alt="Single User" className='w-20 mx-auto mt-[-3rem] bg-white' />
